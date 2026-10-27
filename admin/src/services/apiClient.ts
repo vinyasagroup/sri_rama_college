@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // 1. Create a custom instance
 const apiClient = axios.create({
-  baseURL:  baseURL: API_BASE_URL,,
+  baseURL: API_BASE_URL,
   timeout: 10000,
 });
 
