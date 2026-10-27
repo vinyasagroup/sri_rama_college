@@ -1,0 +1,18 @@
+ALTER TABLE aicte_documents
+ADD COLUMN status VARCHAR(20) NOT NULL DEFAULT 'Active';
+
+
+ALTER TABLE aqar_documents
+ADD COLUMN status VARCHAR(20) NOT NULL DEFAULT 'Active';
+
+
+ALTER TABLE iqac_documents
+ADD COLUMN status VARCHAR(20) NOT NULL DEFAULT 'Active';
+
+
+ALTER TABLE naac_documents
+ADD COLUMN status VARCHAR(20) NOT NULL DEFAULT 'Active';
+
+
+ALTER TABLE nirf_documents
+ADD COLUMN status VARCHAR(20) NOT NULL DEFAULT 'Active';

@@ -1,0 +1,23 @@
+.swiper {
+  overflow: visible;
+}
+
+.swiper-slide {
+  transition: all .4s ease;
+  opacity: .45;
+  transform: scale(.82);
+}
+
+.swiper-slide-active {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.swiper-slide-prev,
+.swiper-slide-next {
+  opacity: .8;
+}
+
+.swiper-slide-active .shadow-xl {
+  box-shadow: 0 20px 50px rgba(0,0,0,.2);
+}
